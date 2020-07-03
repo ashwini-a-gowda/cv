@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  }
+  .container{
+      display: grid;
+      grid-template-columns: 50% 50%;
+       grid-column-gap: 1em ;
+      grid-row-gap: 1em; 
+       grid-gap: 1em ;
+      margin: 200px;
+      
+    }
+    
+    .box{
+      background: #eee;
+      padding: 1em; 
+      background: #e5ccef;
+      text-align: center;
+    }

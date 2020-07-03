@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  }
+  
+  .center {
+     
+      text-align: center;
+      margin: 50px 50px 200px 70px;
+    } 
+  
+    h1{
+      font-size: 50px;
+    }
+  
+    #box {
+      font-family:  Arial;
+      border-collapse: collapse;
+      width: 60%;
+      margin: 200px 30px 300px 250px;
+      
+    }
+    table, th, td {
+      border: 4px solid black;
+    }
+    
+    #box td, #box th {
+      border: 2px solid black;
+      padding: 20px;
+    }
+    
+    
+    
+    #box tr:hover {background-color:lightgray;}
+    
+    #box th {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: left;
+      background-color: palevioletred;
+      color: white;
+    }
